@@ -3,17 +3,18 @@
 /* reset css */
 { margin:0 pading:0; }
 
-body{ background-color: #fffafa }
+body{ background-color: #fffafa; }
 
 header{ padding: 10px; 
         text-align: center;
-        background-color: #ffe4e1 }
+        background-color: #ffe4e1; }
 
 section{ padding: 10px;
-         background-color: #fff0f5 }
+         background-color: #fff0f5; }
          
 aside{ padding: 10px;
-       background-color: #fdf5e6 }
+       background-color: #fdf5e6; }
 
 footer{ padding: 10px;
-        background-color: f0ffff }
+        background-color: f0ffff;
+        text-align: center; }
