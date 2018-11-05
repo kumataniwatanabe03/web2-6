@@ -30,5 +30,17 @@ footer{ padding: 10px;
         /* clearfix */
         content:"";
         display:block;
-        clear:both; }
-}
+        clear:both; } }
+
+/* 1025px以上 */
+@media screen and (min-width:1025px){
+      #main{ mx-width: 1025px;
+             margin: auto; }
+      section{ width: calc(70% - 20px);
+               float:left; }
+      #side{ width: calc(1024px - 718px);
+             float: left;}
+      aside{ width: calc(100% - 20px); }
+      #main:after{ content:"";
+                   display:block;
+                   clear:both; } }
